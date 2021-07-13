@@ -5,7 +5,7 @@ on: push
 jobs:
   test:
     name: Tests
-    runs-on: macOS-latest
+    runs-on: macos-latest
     steps:
     - name: Checkout
       uses: actions/checkout@v2
