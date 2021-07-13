@@ -17,6 +17,12 @@ jobs:
     - name: Install pods
       run: |
         yarn pods
+    - name: Cache Dependencies
+      uses: actions/cache@v2
+      with:
+        path: |
+          ~/node_modules
+          ~/ios/Pods
     - name: Run iOS
       run: |
         yarn run ios
