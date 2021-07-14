@@ -79,7 +79,7 @@ const App = () => {
           </Section>
           <Section title="Github Actions">
             Pushed a different version to <Text style={styles.highlight}>Github Actions</Text> to
-            test caching.
+            test caching once again.
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
